@@ -28,9 +28,9 @@ const Card = ( props ) => {
                 </h4>
             </div>
             <div className='icondiv'>
-                <img src={ props.icon[ 0 ] }></img>
-                <img src={ props.icon[ 1 ] }></img>
-                <img src={ props.icon[ 2 ] }></img>
+                <img alt='shareicon' src={ props.icon[ 0 ] }></img>
+                <img alt='likeicon' src={ props.icon[ 1 ] }></img>
+                <img alt='commenticon' src={ props.icon[ 2 ] }></img>
             </div>
         </div>
     )
