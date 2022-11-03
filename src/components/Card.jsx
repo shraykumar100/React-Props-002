@@ -11,7 +11,7 @@ const Card = ( props ) => {
         <div style={style} className='maindiv'>
             <div className='metadiv'>
                 <div className='leftdiv'>
-                    <img className="img" src={props.posterSrc}></img>
+                    <img alt='posterimg' className="img" src={props.posterSrc}></img>
                 </div>
                 <div className='rightdiv'>
                     <h1 className='white title'>{ props.title}</h1>
